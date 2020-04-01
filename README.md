@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# tekwebUAD_1800016137
-=======
 # Tekweb1800016137
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
