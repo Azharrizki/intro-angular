@@ -8,7 +8,12 @@ import { StudentComponent } from './pages/student/student.component';
 import { TeacherComponent } from './pages/teacher/teacher.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, StudentComponent, TeacherComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    StudentComponent,
+    TeacherComponent
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]

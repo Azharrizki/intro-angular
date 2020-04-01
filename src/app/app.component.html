@@ -1,24 +1,55 @@
-<div style="text-align:center">
-  <h1>
-    Sistem Informasi UAD
-  </h1>
-  <img width="100px" alt="UAD" src="assets/UAD.png" />
-</div>
-<ul>
-  <li>
-    <a href="" [routerLink]="['/home']" routerLinkActive="router-link-active"
-      >Home</a
-    >
-  </li>
-  <li>
-    <a href="" [routerLink]="['/student']" routerLinkActive="router-link-active"
-      >Student</a
-    >
-  </li>
-  <li>
-    <a href="" [routerLink]="['/teacher']" routerLinkActive="router-link-active"
-      >Teacher</a
-    >
-  </li>
-</ul>
+<html>
+<style>
+  h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 1px;
+  }
+
+</style>
+
+<body>
+  <div style="text-align: center;">
+    <h1>Sistem Informasi UAD</h1>
+    <img width="100px" src="assets/UAD.png" />
+    <h1>Muhammad Azhar Rizki</h1>
+    <h2>1800016137</h2>
+  </div>
+  <ul>
+    <li>
+      <a href="https://github.com/Azharrizki/tekwebUAD_1800016137/wiki/Instalasi-Angular">Praktikum2</a>
+    </li>
+    <li>
+      <a href="">Praktikum3
+        <ul class="sub1">
+          <li>
+            <a [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a>
+          </li>
+          <li>
+            <a href="" [routerLink]="['/student']" routerLinkActive="router-link-active">Student</a>
+          </li>
+          <li>
+            <a href="" [routerLink]="['/teacher']" routerLinkActive="router-link-active">Teacher</a>
+          </li>
+        </ul></a>
+    </li>
+    <li><a href="">Praktikum4</a></li>
+    <li><a href="">Praktikum5</a></li>
+    <li><a href="">Praktikum6</a></li>
+    <li><a href="">Praktikum7</a></li>
+    <li><a href="">Praktikum8</a></li>
+    <li><a href="">Praktikum9</a></li>
+    <li><a href="">Praktikum10</a></li>
+  </ul>
+</body>
+
+</html>
 <router-outlet></router-outlet>
